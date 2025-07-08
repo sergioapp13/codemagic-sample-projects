@@ -4,7 +4,57 @@ This sample project illustrates all of the necessary steps to successfully build
 
 You can find more detailed instructions as well numerous guides to advanced features in our [official documentation](https://docs.codemagic.io/yaml-quick-start/building-a-native-android-app/).
 
+# Flutter/Dart padrão
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+generated_plugin_registrant.dart
 
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Android
+android/.gradle/
+android/captures/
+android/.idea/
+android/local.properties
+android/key.properties
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.generated/
+ios/.idea/
+Runner.xcworkspace/
+*.xcuserstate
+
+# Arquivos de build
+*.apk
+*.ipa
+*.app.dSYM.zip
+*.app.dSYM
+
+# Firebase & Google Services (apague se você usa Firebase e quer versionar)
+google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Logs e backups
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
 ## Adding the app to Codemagic
 The apps you have available on Codemagic are listed on the Applications page. Click **Add application** to add a new app.
 
